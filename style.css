@@ -72,7 +72,7 @@ span {
 }
 
 .iconoincorrecto {
-    background-image: url('images/error-icon.svg');
+    background-image: url('images/iconoincorrecto.svg');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position-x: 250px;
@@ -80,7 +80,7 @@ span {
 }
 
 .iconocorrecto {
-    background-image: url('images/success-icon.svg');
+    background-image: url('images/iconocorrecto.svg');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position-x: 250px;
