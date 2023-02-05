@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratorio Eugenia Iturria</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form name="Crea tu cuenta">
+            <h1>Create Account</h1>
+<!---------------------------------------------------------> 
+            <div class="apartado">
+                <p id="titulonombre">Nombre</p>
+                <input type="text" name="nombre" value="" id="nombre" class="cajaelemento" />
+                <span id="nombreError"></span>
+            </div>
+<!--------------------------------------------------------->         
+            <div class="apartado">
+                <p id="tituloemail">Email</p>
+                <input type="email" name="email" value="" id="email" class="cajaelemento" />
+                <span id="emailError"></span>
+            </div>
+<!---------------------------------------------------------> 
+            <div class="apartado">
+                <p id="titulocontrasena">Clave</p>
+                <input type="password" name="contrasena" value="" id="contrasena" class="cajaelemento" />
+                <span id="contrasenaerror"></span>
+            </div>
+<!---------------------------------------------------------> 
+            <div class="apartado">
+                <p id="tituloconfirmar">Confirme su clave</p>
+                <input type="password" name="confirmar" value="" id="confirmar" class="cajaelemento" />
+                <span id="confirmarerror"></span>
+            </div>
+<!---------------------------------------------------------> 
+            <input type="submit" value="ENVIAR" id="boton"
+                onclick="return validaNombre(), validaEmail(), validaContrasena(), validaConfirmar (), validaForm()" />
+        </form>
+    </div>
+<!---------------------------------------------------------> 
   
-  
-  
-  
-  
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
 </html>
